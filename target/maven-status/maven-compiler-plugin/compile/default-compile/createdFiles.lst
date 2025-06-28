@@ -1,0 +1,11 @@
+com\ridesharing\authservice\controller\AuthController.class
+com\ridesharing\authservice\service\AuthService.class
+com\ridesharing\authservice\dto\LoginRequest.class
+com\ridesharing\authservice\AuthserviceApplication.class
+com\ridesharing\authservice\repository\OtpRepository.class
+com\ridesharing\authservice\dto\AuthResponse.class
+com\ridesharing\authservice\dto\RegisterRequest.class
+com\ridesharing\authservice\entity\Otp.class
+com\ridesharing\authservice\ServletInitializer.class
+com\ridesharing\authservice\security\CorsConfig$1.class
+com\ridesharing\authservice\security\CorsConfig.class

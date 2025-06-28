@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: authservice
+
+  datasource:
+    url: jdbc:postgresql://metro.proxy.rlwy.net:51750/railway
+    username: postgres
+    password: IshEHifBjwTzuwaPwylOKRrLBiVjRtwv
+    driver-class-name: org.postgresql.Driver
+
+  jackson:
+    time-zone: Asia/Kolkata
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: Asia/Kolkata
+
+server:
+  port: 8080
+
+jwt:
+  secret: aTgbrVHBlWnqUO4t05ajhujjUrHnwkmz1UVqVn9uNjY8EZjk43BsvikxeKWKhUppx+1wOFbHYW2ocDqdW/1jzQ==
